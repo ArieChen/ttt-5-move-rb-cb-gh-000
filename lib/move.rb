@@ -9,7 +9,7 @@ end
 # code your input_to_index and move method here!
 def input_to_index(input)
   value = input.to_i - 1
-  if value > 8
+  if value > 8 then
     value = 8
 end
 
