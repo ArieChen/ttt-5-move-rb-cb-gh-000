@@ -12,6 +12,7 @@ def input_to_index(input)
   if value > 8 then
     value = -1
   end
+  puts value
 end
 
 def move(board, idx, value="X")
