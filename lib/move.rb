@@ -10,7 +10,7 @@ end
 def input_to_index(input)
   value = input.to_i - 1
   if value > 8 then
-    value = 8
+    value = -1
   end
 end
 
